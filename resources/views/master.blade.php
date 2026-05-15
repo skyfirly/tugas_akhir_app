@@ -21,6 +21,6 @@
     <div class="container mt-4">
         @yield('konten_utama')
     </div>
-
+    @include('footer')
 </body>
 </html>
