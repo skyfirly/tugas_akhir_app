@@ -1,6 +1,7 @@
 @extends('master')
 @section('konten_utama')
 <div class="bg-light p-5 rounded">
-<h1>Selamat Datang!</h1>
-<p>Ini adalah konten dari Halaman Utama</p>
+    <h1 class="fw-bold">Welcome to My Empire!</h1>
+    <p>Mahasiswi Teknik Informatika | {{ $nama }}</p>
 </div>
+@endsection
