@@ -2,8 +2,8 @@
 @section('konten_utama')
 <div class="container mt-5">
     <div class="text-center mb-5">
-        <h1 class="display-4 fw-bold text-danger" style="font-family: 'Comic Sans MS', cursive;">My Favorite Barbie Movie</h1>
-        <p class="lead text-secondary">Koleksi Pilihan terbaik untuk Tugas Misi 2 - {{ $nama }}</p>
+        <h1 class="display-4 fw-bold" style="font-family: 'Comic Sans MS', cursive; color: rgb(65, 9, 41); ">My Favorite Barbie Movie</h1>
+        <p class="lead" style="color: rgb(65, 9, 41);">Mahasiswi Teknik Informatika | {{ $nama }}</p>
     </div>
     <div class="row">
         <div class="col-md-4 mb-4">
