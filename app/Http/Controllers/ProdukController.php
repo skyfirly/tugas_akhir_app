@@ -10,6 +10,10 @@ class ProdukController extends Controller
         $nama = "Future Princess";
         return view('welcome', compact('nama'));
     }
+    public function detail (){
+        $nama = "Future Princess";
+        return view('detail-produk', compact('nama'));
+    }
 }
 
 
