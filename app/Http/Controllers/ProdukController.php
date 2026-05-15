@@ -1,5 +1,15 @@
-public function index()
+<?php
+
+namespace App\Http\Controllers;
+use Illuminate\Http\Request;
+class ProdukController extends Controller
+
 {
-    $nama = "Future Princess";
-    return view('welcome' compact('nama'));
+    public function index()
+    {
+        $nama = "Future Princess";
+        return view('welcme', compact('nama'));
+    }
 }
+
+
