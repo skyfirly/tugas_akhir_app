@@ -8,7 +8,7 @@ class ProdukController extends Controller
     public function index()
     {
         $nama = "Future Princess";
-        return view('welcme', compact('nama'));
+        return view('welcome', compact('nama'));
     }
 }
 
